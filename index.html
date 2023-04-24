@@ -2,12 +2,6 @@
 <html>
 <head>
 <style>
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
   #driveLink {
     display: none;
   }
@@ -27,9 +21,26 @@
 </script>
 </head>
 <body>
-
-<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAw1BMVEX///+UlJQoTIwnTIuQkJCNjY2Li4slSovP1eHk5OQTQoiioqL7+/vx8fHm5ub4+PiYmJjs7/Wnp6cfRomQoL/Y2NjX3uri5/Dt7e0/XpekpKTy9PjPz8/Jycmurq7e3t4AO4Q1VpK/v79pgKy2trbAwMDeACOZpsLeABrdAAANPoWptc2yvNGClLj86u13irFJZZvvmaLGzt5HZJtYcqP+9PYANYL3yM7kKULmSVz629+tuNDshI7hHzflQFRieKbpbHnEM7/sAAAR2ElEQVR4nO1cCUPjNhb2IUfENzYBE3zkcAYmQKHATqc73c7+/1+1enqSY8eyk86UDsPqa4fE8aVP7+ldkm0YGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoa/1/wf3QDXh/Zj27Aq2FW1zP4nM5+dEteCbVDyGQF37z3SbFyTAYSsq8rJ//RrXkNFAQYcm6FQ96ZFP2K/cmRIVBjZN8ZxaRmfyJgSOKAfa3Z1/dEMUpIDD4w9JyJB54iivmIfDcUGUEcfYafZdzb44h8NxT9BPjELS8fmgLvhCInaBKvoRjG5nuiiBLkbAqwMUawIab5jihGyY4PIV5Zemab4M9PMSrbfGLP6dJ7BxSTjkZWwbzPkP38o1v5HehIEIKZyFNR/Gml6Cd9m+K/J4rdMWgKFpFSUX9KiioJAoLkvYzF3hiUCFSKav50FIckCHgX5iZKVGOw2dunSJzJT5X1RwlTzEGC/bFI4jqvwh/R0m/FbBpkeU
-" class="center">
-
-<h1>Accès au lien Google Drive</h1>
-<p>Veuillez saisir
+  <h1>Accès au lien Google Drive</h1>
+  <p>Veuillez saisir le code PIN pour accéder au lien :</p>
+  <input type="password" id="pinInput" maxlength="4">
+  <button onclick="checkPin()">Valider</button>
+  <div id="driveLink">
+    <p>Lien Google Drive :</p>
+    <a href="https://drive.google.com/file/d/1YtvzJcsSKz4080cRRsNOJzbIw8_8W7p5/view?usp=sharing" target="_blank">Cliquez ici pour accéder au fichier</a>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mon site</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div style="text-align:center;">
+		<img src="lien_de_votre_image.jpg" alt="Ma superbe image" width="500" height="500">
+	</div>
+</body>
+</html>
