@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  #driveLink {
+    display: none;
+  }
+</style>
+<script>
+  function checkPin() {
+    const pinInput = document.getElementById("pinInput").value;
+    const correctPin = "2005";
+    const driveLink = document.getElementById("driveLink");
+
+    if (pinInput === correctPin) {
+      driveLink.style.display = "block";
+    } else {
+      alert("Code PIN incorrect. Veuillez réessayer.");
+    }
+  }
+</script>
+</head>
+<body>
+
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAw1BMVEX///+UlJQoTIwnTIuQkJCNjY2Li4slSovP1eHk5OQTQoiioqL7+/vx8fHm5ub4+PiYmJjs7/Wnp6cfRomQoL/Y2NjX3uri5/Dt7e0/XpekpKTy9PjPz8/Jycmurq7e3t4AO4Q1VpK/v79pgKy2trbAwMDeACOZpsLeABrdAAANPoWptc2yvNGClLj86u13irFJZZvvmaLGzt5HZJtYcqP+9PYANYL3yM7kKULmSVz629+tuNDshI7hHzflQFRieKbpbHnEM7/sAAAR2ElEQVR4nO1cCUPjNhb2IUfENzYBE3zkcAYmQKHATqc73c7+/1+1enqSY8eyk86UDsPqa4fE8aVP7+ldkm0YGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoaGhoa/1/wf3QDXh/Zj27Aq2FW1zP4nM5+dEteCbVDyGQF37z3SbFyTAYSsq8rJ//RrXkNFAQYcm6FQ96ZFP2K/cmRIVBjZN8ZxaRmfyJgSOKAfa3Z1/dEMUpIDD4w9JyJB54iivmIfDcUGUEcfYafZdzb44h8NxT9BPjELS8fmgLvhCInaBKvoRjG5nuiiBLkbAqwMUawIab5jihGyY4PIV5Zemab4M9PMSrbfGLP6dJ7BxSTjkZWwbzPkP38o1v5HehIEIKZyFNR/Gml6Cd9m+K/J4rdMWgKFpFSUX9KiioJAoLkvYzF3hiUCFSKav50FIckCHgX5iZKVGOw2dunSJzJT5X1RwlTzEGC/bFI4jqvwh/R0m/FbBpkeU
+" class="center">
+
+<h1>Accès au lien Google Drive</h1>
+<p>Veuillez saisir
